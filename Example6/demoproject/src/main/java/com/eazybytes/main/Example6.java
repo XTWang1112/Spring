@@ -12,7 +12,7 @@ public class Example6 {
 
         System.out.println(vehicle.getName());
         vehicle.printHello();
-
+        context.close();
 
     }
 }
