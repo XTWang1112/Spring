@@ -1,4 +1,4 @@
-package main;
+package com.eazybytes.main;
 
 import com.eazybytes.beans.Vehicle;
 import com.eazybytes.config.ProjectConfig;
