@@ -3,7 +3,7 @@ package com.eazybytes.beans;
 
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class Vehicle {
 
     public Vehicle(){

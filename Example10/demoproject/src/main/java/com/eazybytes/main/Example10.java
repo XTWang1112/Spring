@@ -11,10 +11,10 @@ Example10 {
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
         Person person = context.getBean(Person.class);
-//        Vehicle vehicle = context.getBean(Vehicle.class);
+        Vehicle vehicle = context.getBean(Vehicle.class);
 
         System.out.println("Person name: " + person.getName());
-//        System.out.println("Vehicle name: " + vehicle.getName());
+        System.out.println("Vehicle name: " + vehicle.getName());
         System.out.println(person.getName() + "'s vehicle: " + person.getVehicle());
     }
 }
